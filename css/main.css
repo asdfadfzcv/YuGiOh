@@ -117,6 +117,19 @@ body {
 
 .container_list ul li {
   padding-left: 30px;
+  overflow: hidden;
+}
+
+.container_list ul li img {
+  transition: all 0.2s;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+.container_list ul li img:hover {
+  filter: brightness(50%);
+  transform: scale(1.04);
 }
 
 .container_video {
@@ -160,6 +173,20 @@ body {
 .game1 ul li,
 .game2 ul li {
   padding: 10px;
+}
+
+.game1 ul li img,
+.game2 ul li img {
+  transition: all 0.2s;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+.game1 ul li img:hover,
+.game2 ul li img:hover {
+  filter: brightness(50%);
+  transform: scale(1.04);
 }
 
 .game1 ul li h1,
