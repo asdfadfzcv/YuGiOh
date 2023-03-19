@@ -1,5 +1,6 @@
 .container_cover {
-  height: 1394px;
+  max-height: 1900px;
+  min-width: 1400px;
 }
 
 .cover_main {
@@ -12,8 +13,12 @@
 
 .cover_subs {
   display: flex;
-  width: 1600px;
-  height: 693px;
+  max-width: 1900px;
+  min-width: 1400px;
+}
+
+.cover_subs img{
+  width: 100%;
 }
 
 .cover_subs .slick-dots {
@@ -27,6 +32,14 @@
   border-radius: 16px;
   opacity: 0.2;
   transition: width 0.3s;
+}
+
+.slick-dotted.slick-slider{
+  margin-bottom: initial;
+}
+
+.slick-next.slick-arrow{
+  display: none;
 }
 
 .cover_subs .slick-dots li.slick-active button {
