@@ -29,6 +29,7 @@ body {
 
 .header {
   max-width: 1900px;
+  min-width: 1400px;
   margin: 0 auto;
 }
 
