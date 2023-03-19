@@ -1,19 +1,25 @@
 .container_box {
-  height: 1150px;
   background-color: #fff;
+  display: flex;
+  max-width: 1900px;
+  min-width: 1400px;
 }
 
-.text_box {
-  position: relative;
+.howto_box {
+  width: 100%;
+  padding-left: 340px;
+  padding-right: 40px;
+  height: 1150px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .text_header {
   display: flex;
-  width: 1020px;
-  margin: 0 auto;
   justify-content: space-between;
   border-bottom: 1px solid #ddd;
-  padding-bottom: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .text_header h1 {
@@ -33,9 +39,8 @@
 }
 
 .text_list {
-  width: 1020px;
   margin: 0 auto;
-  padding-left: 60px;
+  padding-left: 40px;
   padding-top: 90px;
 }
 
@@ -67,16 +72,15 @@
 }
 
 .character {
-  position: absolute;
-  top: 406px;
-  right: 328px;
+  margin-top: 500px;
+  background-color: #f887f0;
 }
 
+.character img {
+  width: 100%;
+}
 .side_box {
-  position: absolute;
-  height: 1010px;
-  top: 80px;
-  right: 120px;
+  min-width: 340px;
   border-left: 1px solid #ddd;
 }
 
@@ -85,17 +89,13 @@
 }
 
 .side_box ul li {
-  /* width: 130px; */
   color: #8f9496;
   font-size: 14px;
   padding-top: 16px;
-  /* padding-left: 10px; */
 }
 
 .side_box ul li h1 {
   color: #5d5d5d;
-  border-bottom: 1px solid #ddd;
-  /* width: 130px; */
   padding-left: 10px;
 }
 
