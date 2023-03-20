@@ -1,0 +1,65 @@
+/* header end */
+
+/* visual */
+
+.visual .visual_photo {
+  margin: 0 auto;
+  max-width: 1900px;
+  min-width: 1400px;
+  height: 460px;
+  background-image: url("../imgs/visual_photo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* container */
+
+.container_list {
+  max-width: 1900px;
+  min-width: 1400px;
+  margin: 0 auto;
+  height: 200px;
+  background-color: #333;
+  padding-top: 30px;
+}
+
+.container_list ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container_list ul li {
+  overflow: hidden;
+}
+
+.container_list ul li img {
+  transition: all 0.2s;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+.container_list ul li img:hover {
+  filter: brightness(50%);
+  transform: scale(1.04);
+}
+
+.container_video {
+  display: flex;
+  justify-content: center;
+  max-width: 1900px;
+  min-width: 1400px;
+  margin: 0 auto;
+}
+
+.container_video iframe {
+  min-width: 1400px;
+  height: 490px;
+  margin: 0 auto;
+}
+
+.boxs ul {
+  display: flex;
+}
